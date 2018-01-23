@@ -11,7 +11,7 @@
 # FROM ubuntu:trusty
 FROM nvidia/cuda:8.0-cudnn5-devel-ubuntu14.04
 
-MAINTAINER zhengsl <zhengsl@satimage.cn>
+MAINTAINER zhengsl1 <zhengsl@satimage.cn>
 
 # Install the application.
 ADD . /usr/local/src/gdal-docker/
