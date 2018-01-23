@@ -8,9 +8,10 @@
 #
 
 # Ubuntu 14.04 Trusty Tahyr
-FROM ubuntu:trusty
+# FROM ubuntu:trusty
+FROM nvidia/cuda:8.0-cudnn5-devel-ubuntu14.04
 
-MAINTAINER Homme Zwaagstra <hrz@geodata.soton.ac.uk>
+MAINTAINER zhengsl <zhengsl@satimage.cn>
 
 # Install the application.
 ADD . /usr/local/src/gdal-docker/
