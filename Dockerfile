@@ -7,11 +7,10 @@
 # <https://github.com/OSGeo/gdal/blob/trunk/.travis.yml>
 #
 
-# Ubuntu 14.04 Trusty Tahyr
-# FROM ubuntu:trusty
+# nvidia cuda on Ubuntu 14.04
 FROM nvidia/cuda:8.0-cudnn5-devel-ubuntu14.04
 
-MAINTAINER zhengsl1 <zhengsl@satimage.cn>
+MAINTAINER zhengsl <zhengsl@satimage.cn>
 
 # Install the application.
 ADD . /usr/local/src/gdal-docker/
